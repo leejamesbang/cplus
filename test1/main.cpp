@@ -7,5 +7,7 @@ int main(int argc, char* argv[])
 {
 	cout << "hello,James,go gogo!" << endl;
 
+	test1();
+
 	return 0;
 }
