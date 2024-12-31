@@ -1,0 +1,25 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/test1/test1.vcxproj.filters
+/test1/x64/Debug/test1.pdb
+*.exe
+/test1/test1/x64/Debug/main.obj
+/test1/test1/x64/Debug/test1.exe.recipe
+/test1/test1/x64/Debug/test1.ilk
+/test1/test1/x64/Debug/test1.log
+/test1/test1/x64/Debug/test1.obj
+/test1/test1/x64/Debug/vc143.idb
+/test1/test1/x64/Debug/vc143.pdb
+/test1/test1/x64/Debug/test1.tlog
+/.vs
+/test1/.vs/test1/FileContentIndex
+/test1/.vs/test1/v17/ipch/AutoPCH
+/test1/.vs/test1/v17/Browse.VC.db
+/test1/.vs/test1/v17/Browse.VC.db-shm
+/test1/.vs/test1/v17/Browse.VC.db-wal
+/test1/.vs/test1/v17/Browse.VC.opendb
+/test1/.vs/test1/v17/DocumentLayout.backup.json
+/test1/.vs/test1/v17/DocumentLayout.json
+/test1/.vs/test1/v17/.suo
