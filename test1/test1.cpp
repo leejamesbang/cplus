@@ -7,3 +7,8 @@ void test1()
 {
 	cout << "from test1!" << endl;
 }
+
+void test2()
+{
+	cout << "test2" << endl;
+}
