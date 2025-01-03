@@ -4,6 +4,7 @@
 
 #include "chicken_rabbits.h"
 #include "temperature.h"
+#include "TwoCarsMeeting.h"
 
 using namespace std;
 
@@ -17,7 +18,8 @@ int main(int argc, char* argv[])
 	//test22();
 
 	//find_chicken_rabbits(4,7);
-	temperature();
+	//temperature();
+	TwoCarsMeeting(10, 20, 45);
 
 	return 0;
 }

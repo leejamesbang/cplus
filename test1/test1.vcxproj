@@ -132,12 +132,14 @@
     <ClCompile Include="temperature.cpp" />
     <ClCompile Include="test1.cpp" />
     <ClCompile Include="test2.cpp" />
+    <ClCompile Include="TwoCarsMeeting.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chicken_rabbits.h" />
     <ClInclude Include="temperature.h" />
     <ClInclude Include="test1.h" />
     <ClInclude Include="test2.h" />
+    <ClInclude Include="TwoCarsMeeting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
