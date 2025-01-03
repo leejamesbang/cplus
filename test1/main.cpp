@@ -3,6 +3,7 @@
 #include "test2.h"
 
 #include "chicken_rabbits.h"
+#include "temperature.h"
 
 using namespace std;
 
@@ -15,7 +16,8 @@ int main(int argc, char* argv[])
 
 	//test22();
 
-	find_chicken_rabbits(4,7);
+	//find_chicken_rabbits(4,7);
+	temperature();
 
 	return 0;
 }
