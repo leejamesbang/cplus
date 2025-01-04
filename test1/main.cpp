@@ -5,21 +5,22 @@
 #include "chicken_rabbits.h"
 #include "temperature.h"
 #include "TwoCarsMeeting.h"
+#include "days_you_lived.h"
 
 using namespace std;
 
 int main(int argc, char* argv[])
 {
-	cout << "hello,James,go gogo!" << endl;
+	cout << "Time to run the program!!!" << endl;
 
-	//test1();
 	//test2();
 
 	//test22();
 
 	//find_chicken_rabbits(4,7);
 	//temperature();
-	TwoCarsMeeting(10, 20, 45);
+	//TwoCarsMeeting(10, 20, 45);
+	days_you_lived();
 
 	return 0;
 }
