@@ -6,6 +6,7 @@
 #include "temperature.h"
 #include "TwoCarsMeeting.h"
 #include "days_you_lived.h"
+#include "test_review.h"
 
 using namespace std;
 
@@ -20,7 +21,9 @@ int main(int argc, char* argv[])
 	//find_chicken_rabbits(4,7);
 	//temperature();
 	//TwoCarsMeeting(10, 20, 45);
-	days_you_lived();
+	//days_you_lived();
+	test_review();
+
 
 	return 0;
 }
