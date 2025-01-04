@@ -7,7 +7,7 @@
 #include "TwoCarsMeeting.h"
 #include "days_you_lived.h"
 #include "test_review.h"
-
+#include "area_of_different_shape.h"
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -22,7 +22,8 @@ int main(int argc, char* argv[])
 	//temperature();
 	//TwoCarsMeeting(10, 20, 45);
 	//days_you_lived();
-	test_review();
+	//test_review();
+	area_of_different_shape();
 
 
 	return 0;
