@@ -8,6 +8,7 @@
 #include "days_you_lived.h"
 #include "test_review.h"
 #include "area_of_different_shape.h"
+#include "guess_the_number.h"
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -24,7 +25,8 @@ int main(int argc, char* argv[])
 	//days_you_lived();
 	//test_review();
 
-	area_of_different_shape();
+	//area_of_different_shape();
+	guess_the_number();
 
 
 	return 0;
