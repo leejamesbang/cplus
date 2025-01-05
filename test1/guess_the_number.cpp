@@ -3,25 +3,26 @@
 using namespace std;
 
 int guess_the_number() {
-	int goal = rand() % 100 + 1;
+	srand(static_cast<unsigned>(time(0)));
+	int goal = rand() % 1000 + 1;
 	int num;
-	int attempts = 0;
+	int attempts = 1;
 
 	cout << "Welcome to number guessing game!" << endl;
-	cout << "You are going to guess a number between 1 and 100" << endl;
+	cout << "You are going to guess a number between 1 and 1000" << endl;
 	cout << "Try to get the goal under five attempts!" << endl;
 	cout << "Please enter you guess below" << endl;
 	cin >> num;
 
 	while (num != goal) {
 		if (num < goal) {
-			if ((goal - num) > 25) {
+			if ((goal - num) > 250) {
 				cout << "Way too low!" << endl;
 				cout << "Please guess again" << endl;
 				cin >> num;
 				attempts++;
 			}
-			else if ((goal - num) < 5) {
+			else if ((goal - num) < 50) {
 				cout << "It's only a bit low" << endl;
 				cout << "Try again" << endl;
 				cin >> num;
@@ -34,13 +35,13 @@ int guess_the_number() {
 			}
 		}
 		else {
-			if ((num - goal) > 25) {
+			if ((num - goal) > 250) {
 				cout << "Way too high!" << endl;
 				cout << "Please guess again" << endl;
 				cin >> num;
 				attempts++;
 			}
-			else if ((num - goal) < 5) {
+			else if ((num - goal) < 50) {
 				cout << "It's only a bit high" << endl;
 				cout << "Try again" << endl;
 				cin >> num;
