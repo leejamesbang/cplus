@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="area_of_different_shape.cpp" />
     <ClCompile Include="chicken_rabbits.cpp" />
+    <ClCompile Include="decode_and_encode.cpp" />
     <ClCompile Include="guess_the_number.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="temperature.cpp" />
@@ -142,6 +143,7 @@
   <ItemGroup>
     <ClInclude Include="area_of_different_shape.h" />
     <ClInclude Include="chicken_rabbits.h" />
+    <ClInclude Include="decode_and_encode.h" />
     <ClInclude Include="guess_the_number.h" />
     <ClInclude Include="temperature.h" />
     <ClInclude Include="test1.h" />

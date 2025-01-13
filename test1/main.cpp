@@ -9,6 +9,7 @@
 #include "test_review.h"
 #include "area_of_different_shape.h"
 #include "guess_the_number.h"
+#include "decode_and_encode.h"
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -26,7 +27,8 @@ int main(int argc, char* argv[])
 	//test_review();
 
 	//area_of_different_shape();
-	guess_the_number();
+	//guess_the_number();
+	decode_and_encode();
 
 
 	return 0;
