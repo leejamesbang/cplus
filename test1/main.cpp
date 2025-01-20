@@ -2,6 +2,8 @@
 #include "test1.h"
 #include "test2.h"
 
+#include "mmc24.h"
+
 #include "chicken_rabbits.h"
 #include "temperature.h"
 #include "TwoCarsMeeting.h"
@@ -28,7 +30,9 @@ int main(int argc, char* argv[])
 
 	//area_of_different_shape();
 	//guess_the_number();
-	decode_and_encode();
+	//decode_and_encode();
+
+	mmc14();
 
 
 	return 0;

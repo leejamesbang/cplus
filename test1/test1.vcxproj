@@ -133,6 +133,7 @@
     <ClCompile Include="decode_and_encode.cpp" />
     <ClCompile Include="guess_the_number.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mmc24.cpp" />
     <ClCompile Include="temperature.cpp" />
     <ClCompile Include="test1.cpp" />
     <ClCompile Include="test2.cpp" />
@@ -145,6 +146,7 @@
     <ClInclude Include="chicken_rabbits.h" />
     <ClInclude Include="decode_and_encode.h" />
     <ClInclude Include="guess_the_number.h" />
+    <ClInclude Include="mmc24.h" />
     <ClInclude Include="temperature.h" />
     <ClInclude Include="test1.h" />
     <ClInclude Include="test2.h" />
